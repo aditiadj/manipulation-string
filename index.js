@@ -1,5 +1,4 @@
 /*Level 0*/
-
 const quoteA = `To win big, you sometimes have to take big risks.`;
 const quoteB = `- Bill Gates -`;
 
@@ -13,5 +12,9 @@ const C = "Jum'atan ya!"
 const D = `${A} ${B} ${C}`
 
 /*Level 2*/
+D.toUpperCase(); //complete sentence to upper
+console.log(D.toUpperCase());
+D.toLowerCase();
+console.log(D.toLowerCase());
 
 /*Level 3*/
