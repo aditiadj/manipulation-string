@@ -7,6 +7,10 @@ console.log(quoteA);
 console.log(quoteB);
 
 /*Level 1*/
+const A = "Jangan"
+const B = "lupa"
+const C = "Jum'atan ya!"
+const D = `${A} ${B} ${C}`
 
 /*Level 2*/
 
