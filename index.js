@@ -49,7 +49,7 @@ function uppercase() {
   var textone = document.getElementById('input-one').value;
   var textwo = document.getElementById('input-two').value;
 
-  var textuc = "result toUpperCase :  " + textone.toUpperCase() + " " + textwo.toUpperCase();
+  var textuc = "Result Uppercase :  " + textone.toUpperCase() + " " + textwo.toUpperCase();
   document.getElementById('result').innerHTML = textuc;
 }
 
@@ -60,7 +60,7 @@ function lowercase() {
   var textone = document.getElementById('input-one').value;
   var textwo = document.getElementById('input-two').value;
 
-  var textuc = "result toLowerCase :  " + textone.toLowerCase() + " " + textwo.toLowerCase();
+  var textuc = "Result Lowercase :  " + textone.toLowerCase() + " " + textwo.toLowerCase();
   document.getElementById('result').innerHTML = textuc;
 }
 
@@ -95,8 +95,7 @@ function textCapital() {
     console.log(textone);
   }
 
-  document.getElementById('result').innerHTML = "result text capital:  " + textone.join(' ');
+  document.getElementById('result').innerHTML = "Result text one capital:  " + textone.join(' ');
 }
 
 document.getElementById('result-five').addEventListener('click', textCapital);
-console.log(textone);
