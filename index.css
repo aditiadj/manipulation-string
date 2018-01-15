@@ -12,3 +12,8 @@ body {
  #result-two, #result-three, #result-four, #result-five {
    margin: 5px;
  }
+ 
+ #result{
+   display: flex;
+   justify-content: center;
+ }
